@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["prettier", "eslint:recommended", "prettier/react", "plugin:react/recommended"],
+  "plugins": ["prettier", "react", "jsx-a11y", "import", "import"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "react/prefer-stateless-function": "error"
+  }
+}
