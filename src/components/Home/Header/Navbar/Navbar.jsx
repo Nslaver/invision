@@ -4,13 +4,25 @@ import { Logo } from 'components/Shared'
 
 const Navbar = props => {
   return (
-    <section className={props.className}>
-      <Logo />
-      <a>Services</a>
-      <a>Kiosk</a>
-      <a>Compliance</a>
-      <a>Contact</a>
-    </section>
+    <div className={props.className}>
+      <ul>
+        <li>
+          <Logo />
+        </li>
+        <li>
+          <a>Services</a>
+        </li>
+        <li>
+          <a>Kiosk</a>
+        </li>
+        <li>
+          <a>Compliance</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
+      </ul>
+    </div>
   )
 }
 
