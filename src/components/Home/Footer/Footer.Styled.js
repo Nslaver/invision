@@ -7,19 +7,21 @@ const FooterStyled = styled(Footer)`
   flex-wrap: wrap;
   height: 218px;
   border-radius: 10px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.118886);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.118886);
   margin: 20px 0 30px 0;
   background: ${props => props.theme.colors.white};
-
   width: 100%;
+
   .left {
-    width: 33%;
+    width: calc(100% / 3);
   }
+
   .center {
-    width: 33%;
+    width: calc(100% / 3);
   }
+
   .right {
-    width: 33%;
+    width: calc(100% / 3);
   }
 `
 export default FooterStyled

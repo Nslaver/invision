@@ -16,12 +16,10 @@
     "eject": "react-scripts eject",
     "lint": "yarn lint-js && yarn lint-st",
     "lint-js": "eslint  \"src/**/*.jsx\" ",
-    "lint-st": "stylelint \"src/**/*Styled*.jsx\"",
+    "lint-st": "stylelint \"src/**/*Styled*.js\"",
     "lint-fix": "eslint  \"src/**/*.jsx\" --fix"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "pre-commit": ["lint"],
   "prettier": {
     "printWidth": 100,
     "tabWidth": 2,

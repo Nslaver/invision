@@ -12,6 +12,6 @@ const HeaderStyled = styled(Header)`
   border-radius: 10px 10px 0 0;
   margin: 30px 0 0;
   justify-content: space-between;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.118886);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.118886);
 `
 export default HeaderStyled

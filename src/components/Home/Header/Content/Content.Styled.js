@@ -20,6 +20,7 @@ const ContentStyled = styled(Content)`
   .sidea {
     width: 50%;
   }
+
   .sideb {
     background-repeat: no-repeat;
     background-image: url(${props => props.theme.assets.kiosk});
@@ -27,9 +28,10 @@ const ContentStyled = styled(Content)`
     background-size: auto 75%;
     width: 50%;
 
-    ${Media.tablet`
-    width: 100%;
-    background-size: auto 95%`};
+    @media (max-width: ${Media.table}em) {
+      width: 100%;
+      background-size: auto 95%;
+    }
   }
 `
 
