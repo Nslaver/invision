@@ -10,7 +10,7 @@ const Content = props => {
         <p>Receive a commission</p>
         <div>
           <Button inverse>Read More</Button>
-          <span>a</span>
+          <span>or</span>
           <a href="mailto:example@example.com">contact sales</a>
         </div>
       </div>

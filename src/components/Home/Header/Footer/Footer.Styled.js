@@ -18,7 +18,7 @@ const FooterStyled = styled(Footer)`
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 30px;
     align-items: center;
   }
 

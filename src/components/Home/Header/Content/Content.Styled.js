@@ -13,7 +13,7 @@ const ContentStyled = styled(Content)`
   margin: auto;
   max-width: 950px;
   min-height: 500px;
-  padding: 0 20px;
+  padding: 0 30px;
 
   a {
     text-decoration: none;
@@ -22,11 +22,15 @@ const ContentStyled = styled(Content)`
 
   .left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     h1 {
       line-height: 65px;
       font-size: 58px;
       letter-spacing: -1px;
+      margin-top: 0;
       margin-bottom: 10px;
 
       @media (max-width: ${Sizes.phone}px) {
@@ -38,7 +42,12 @@ const ContentStyled = styled(Content)`
     span {
       display: inline;
       padding: 0 40px 0 30px;
-      margin-bottom: 30px;
+      line-height: 39px;
+    }
+
+    p {
+      margin: 0 0 30px 0;
+      padding: 0 40px 0 0;
     }
 
     @media (max-width: ${Sizes.phone}px) {

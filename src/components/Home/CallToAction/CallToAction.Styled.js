@@ -19,7 +19,6 @@ const CallToActionStyled = styled(CallToAction)`
       display: block;
       width: 100%;
       max-width: 630px;
-      height: 70px;
       line-height: 35px;
       font-size: 23px;
       margin: 0 auto 20px auto;

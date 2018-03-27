@@ -9,7 +9,7 @@ const LocationsStyled = styled(Locations)`
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.118886);
   background: ${props => props.theme.colors.white};
-  padding: 10px 50px;
+  padding: 10px 50px 90px 50px;
   align-items: center;
   text-align: center;
 
@@ -26,7 +26,8 @@ const LocationsStyled = styled(Locations)`
   }
 
   .location__img {
-    max-width: 100%;
+    width: 100%;
+    height: 50%;
   }
 `
 export default LocationsStyled

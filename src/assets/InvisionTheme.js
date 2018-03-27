@@ -11,6 +11,7 @@ import locations from 'assets/img/locations.svg'
 import medium from 'assets/img/medium.svg'
 import slack from 'assets/img/slack.svg'
 import twitterLogo from 'assets/img/twitter.svg'
+import hamburger from 'assets/img/hamburger.svg'
 
 const Theme = {
   colors: {
@@ -34,7 +35,8 @@ const Theme = {
     locations: locations,
     medium: medium,
     slack: slack,
-    twitterLogo: twitterLogo
+    twitterLogo: twitterLogo,
+    hamburger: hamburger
   }
 }
 

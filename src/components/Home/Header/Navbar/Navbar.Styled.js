@@ -10,7 +10,7 @@ const NavbarStyled = styled(Navbar)`
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 30px;
 
   ul {
     width: 100%;
@@ -32,12 +32,24 @@ const NavbarStyled = styled(Navbar)`
   li:first-child {
     width: 50%;
 
-    @media (max-width: ${Sizes.tabler}px) {
+    @media (max-width: ${Sizes.tablet}px) {
       width: 30%;
     }
 
     @media (max-width: ${Sizes.phone}px) {
       display: inline;
+    }
+  }
+
+  ul::after {
+    @media (max-width: ${Sizes.phone}px) {
+      content: "";
+      height: 50px;
+      width: 50px;
+      background: url(/static/media/hamburger.86595150.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      filter: invert(100%);
     }
   }
 `
