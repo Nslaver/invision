@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Content from './Content'
-import Media from 'assets/Media'
+import { sizes } from 'assets/Media'
 
 const ContentStyled = styled(Content)`
   width: 100%;
@@ -9,6 +9,7 @@ const ContentStyled = styled(Content)`
   display: flex;
   flex: flex-grow;
   flex-grow: 2;
+  flex-wrap: wrap;
   margin: auto;
   max-width: 800px;
 
@@ -17,20 +18,19 @@ const ContentStyled = styled(Content)`
     color: inherit;
   }
 
-  .sidea {
+  .left {
     width: 50%;
   }
 
-  .sideb {
+  .right {
     background-repeat: no-repeat;
     background-image: url(${props => props.theme.assets.kiosk});
     background-position: center bottom;
-    background-size: auto 75%;
+    background-size: auto 100%;
     width: 50%;
 
-    @media (max-width: ${Media.table}em) {
+    @media (max-width: ${sizes.phone}px) {
       width: 100%;
-      background-size: auto 95%;
     }
   }
 `

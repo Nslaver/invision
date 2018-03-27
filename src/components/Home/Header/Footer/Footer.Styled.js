@@ -13,27 +13,25 @@ const FooterStyled = styled(Footer)`
   ul {
     width: 100%;
     display: flex;
+    max-width: 800px;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
+    padding: 0;
+    align-items: center;
   }
 
   li {
+    width: calc((100% / 5) - 40px);
     display: inline;
   }
 
   li img {
     filter: contrast(100%) brightness(200%);
-  }
-
-  .evernote {
-    box-sizing: border-box;
-    margin: 10px 20px;
-    width: calc((100% / 5) - 40px);
-    background: url(${props => props.theme.assets.evernote});
-    filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.1));
-    background-size: auto 100%;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 23px;
+    margin: auto;
+    display: block;
   }
 `
 export default FooterStyled
