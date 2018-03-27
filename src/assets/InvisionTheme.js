@@ -8,6 +8,9 @@ import twitter from 'assets/img/twitter.png'
 import uber from 'assets/img/uber.png'
 import services from 'assets/img/services.svg'
 import locations from 'assets/img/locations.svg'
+import medium from 'assets/img/medium.svg'
+import slack from 'assets/img/slack.svg'
+import twitterLogo from 'assets/img/twitter.svg'
 
 const Theme = {
   colors: {
@@ -16,7 +19,8 @@ const Theme = {
     mainText: '#fff',
     secondaryText: '#000',
     gray: '#F9F9F9',
-    white: 'white'
+    white: 'white',
+    lightGray: '#59585D'
   },
   assets: {
     kiosk: kiosk,
@@ -27,7 +31,10 @@ const Theme = {
     twitter: twitter,
     uber: uber,
     services: services,
-    locations: locations
+    locations: locations,
+    medium: medium,
+    slack: slack,
+    twitterLogo: twitterLogo
   }
 }
 
