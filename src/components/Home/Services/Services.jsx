@@ -9,7 +9,7 @@ const Services = props => {
       <div className="right">
         <h2>Kiosk Services</h2>
         <img
-          className="services"
+          className="services__img"
           src={props.theme.assets.services}
           alt="Gift Cards, Gaming Vouchers, Cryptocurrencies, International TOP-UPs, Phone / Calling Cards,  Recycling"
         />
