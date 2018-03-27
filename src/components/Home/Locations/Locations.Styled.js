@@ -19,8 +19,8 @@ const LocationsStyled = styled(Locations)`
     width: 100%;
   }
 
-  img {
-    height: 500px;
+  .location__img {
+    max-width: 100%;
   }
 `
 export default LocationsStyled

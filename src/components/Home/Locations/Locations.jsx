@@ -10,7 +10,11 @@ const Locations = props => {
         Partner with Instakiosks and offer multiple financial services to your customers and
         increase revenue
       </span>
-      <img src={props.theme.assets.locations} alt="Kiosks at Miami, Brasil, etc..." />
+      <img
+        src={props.theme.assets.locations}
+        className="location__img"
+        alt="Kiosks at Miami, Brasil, etc..."
+      />
     </section>
   )
 }
