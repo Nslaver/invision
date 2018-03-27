@@ -14,7 +14,7 @@ const FooterStyled = styled(Footer)`
   ul {
     width: 100%;
     display: flex;
-    max-width: 800px;
+    max-width: 950px;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;

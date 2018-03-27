@@ -11,7 +11,7 @@ const ContentStyled = styled(Content)`
   flex-grow: 2;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 800px;
+  max-width: 950px;
   min-height: 500px;
   padding: 0 20px;
 
