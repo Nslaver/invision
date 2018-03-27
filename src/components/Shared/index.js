@@ -1,4 +1,5 @@
-import Button from './Button/Button.Styled'
-import Logo from './Logo/Logo.Styled'
+import Button from './Button'
+import Logo from './Logo'
+import Container from './Container'
 
-export { Button, Logo }
+export { Button, Logo, Container }
