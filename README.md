@@ -1,4 +1,7 @@
-Invision Test App
+Test App [bbox.co/invision](http://bbox.co/invision)
 
 ## Build with
-  - styled-components
+
+* ReactJS
+* styled-components
+* gh-pages
