@@ -6,10 +6,10 @@ const CallToAction = props => {
   return (
     <section className={props.className}>
       <div className="center">
-        <h1>
+        <span>
           Partner with Instakiosks and offer multiple financial services to your customers and
           increase revenue
-        </h1>
+        </span>
         <Button>Join Our Network</Button>
       </div>
     </section>

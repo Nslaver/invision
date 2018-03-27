@@ -14,6 +14,16 @@ const CallToActionStyled = styled(CallToAction)`
   .center {
     width: 80%;
     margin: auto;
+
+    span {
+      display: block;
+      width: 100%;
+      max-width: 630px;
+      height: 70px;
+      line-height: 35px;
+      font-size: 23px;
+      margin: 0 auto 20px auto;
+    }
   }
 `
 export default CallToActionStyled
