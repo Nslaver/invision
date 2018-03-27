@@ -5,8 +5,8 @@ const Button = styled.button`
   color: ${props => props.inverse ? props.theme.colors.secondaryBackground : props.theme.colors.mainText};
   border-radius: 25px;
   border: none;
-  height: 50px;
-  width: 100px;
+  height: 39px;
+  padding: 5px 20px;
   transition: 0.5s;
 
   &:hover {
