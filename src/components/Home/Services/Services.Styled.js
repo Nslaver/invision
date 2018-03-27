@@ -5,7 +5,7 @@ const ServicesStyled = styled(Services)`
   width: 100%;
   border-radius: 10px;
   margin: 20px 0;
-  padding: 64px 50px 0 50px;
+  padding: 65px 50px 0 50px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.118886);
   display: flex;
   flex-direction: row;
@@ -13,7 +13,7 @@ const ServicesStyled = styled(Services)`
   background: ${props => props.theme.colors.white};
 
   @media (max-width: ${Sizes.tablet}px) {
-    padding: 30px 10px 0 10px;
+    padding: 40px 20px 0 20px;
   }
 
   @media (max-width: ${Sizes.phone}px) {
@@ -46,13 +46,9 @@ const ServicesStyled = styled(Services)`
     width: calc(100% * 7 / 12 - 125px);
     padding: 0 125px 60px 0;
 
-    h2 {
-      margin-bottom: 0;
-    }
-
     @media (max-width: ${Sizes.tablet}px) {
-      width: calc(100% * 7 / 12 - 20px);
-      padding: 0 20px 30px 0;
+      width: calc(100% * 7 / 12 - 60px);
+      padding: 0 0 20px 0;
     }
 
     @media (max-width: ${Sizes.phone}px) {
@@ -60,8 +56,26 @@ const ServicesStyled = styled(Services)`
       padding: 0 25px;
     }
 
+    h2 {
+      margin-bottom: 0;
+      font-size: 28px;
+
+      @media (max-width: ${Sizes.tablet}px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: ${Sizes.phone}px) {
+        font-size: 24px;
+      }
+    }
+
     .services__img {
       width: 100%;
+      padding-left: 30px;
+
+      @media (max-width: ${Sizes.phone}px) {
+        padding: 0;
+      }
     }
   }
 `

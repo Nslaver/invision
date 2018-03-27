@@ -25,6 +25,7 @@ const FooterStyled = styled(Footer)`
     font-size: 11px;
 
     @media (max-width: ${Sizes.phone}px) {
+      text-align: center;
       order: 3;
       width: 100%;
     }
@@ -47,10 +48,11 @@ const FooterStyled = styled(Footer)`
     }
 
     img {
-      padding: 0 10px;
+      padding: 0 15px;
     }
 
     @media (max-width: ${Sizes.phone}px) {
+      text-align: center;
       width: 100%;
     }
   }
@@ -66,6 +68,8 @@ const FooterStyled = styled(Footer)`
     @media (max-width: ${Sizes.phone}px) {
       order: 1;
       width: 100%;
+      text-align: center;
+      padding: 20px 0;
     }
   }
 `

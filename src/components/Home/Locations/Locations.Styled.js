@@ -15,10 +15,14 @@ const LocationsStyled = styled(Locations)`
 
   h1 {
     width: 100%;
+    margin-top: 65px;
+    line-height: 65px;
   }
 
   span {
     width: 100%;
+    margin: 0 auto 70px auto;
+    max-width: 430px;
   }
 
   .location__img {

@@ -36,7 +36,8 @@ const ContentStyled = styled(Content)`
     }
 
     span {
-      display: block;
+      display: inline;
+      padding: 0 40px 0 30px;
       margin-bottom: 30px;
     }
 
