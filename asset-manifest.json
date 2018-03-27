@@ -1,8 +1,11 @@
 {
-  "main.js": "static/js/main.43f0a481.js",
-  "main.js.map": "static/js/main.43f0a481.js.map",
+  "main.js": "static/js/main.90b623cf.js",
+  "main.js.map": "static/js/main.90b623cf.js.map",
   "static/media/kiosk.png": "static/media/kiosk.fdfd7724.png",
   "static/media/kioskSide.png": "static/media/kioskSide.918b990c.png",
   "static/media/locations.svg": "static/media/locations.8799f49c.svg",
-  "static/media/services.svg": "static/media/services.424f723a.svg"
+  "static/media/medium.svg": "static/media/medium.a0f6f5ae.svg",
+  "static/media/services.svg": "static/media/services.424f723a.svg",
+  "static/media/slack.svg": "static/media/slack.6961eaed.svg",
+  "static/media/twitter.svg": "static/media/twitter.2613738c.svg"
 }
