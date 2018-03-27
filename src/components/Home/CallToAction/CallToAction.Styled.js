@@ -9,16 +9,9 @@ const CallToActionStyled = styled(CallToAction)`
   margin: 20px 0 30px 0;
   width: 100%;
 
-  .left {
-    width: calc(100% / 3);
-  }
-
   .center {
-    width: calc(100% / 3);
-  }
-
-  .right {
-    width: calc(100% / 3);
+    width: 80%;
+    margin: auto;
   }
 `
 export default CallToActionStyled
