@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import Content from './Content'
-import { sizes } from 'assets/Media'
+import { Sizes } from 'assets/Media'
 
 const ContentStyled = styled(Content)`
   width: 100%;
@@ -12,6 +12,8 @@ const ContentStyled = styled(Content)`
   flex-wrap: wrap;
   margin: auto;
   max-width: 800px;
+  min-height: 500px;
+  padding: 0 20px;
 
   a {
     text-decoration: none;
@@ -20,17 +22,43 @@ const ContentStyled = styled(Content)`
 
   .left {
     width: 50%;
+
+    h1 {
+      line-height: 65px;
+      font-size: 58px;
+      letter-spacing: -1px;
+      margin-bottom: 10px;
+
+      @media (max-width: ${Sizes.phone}px) {
+        line-height: 45px;
+        font-size: 40px;
+      }
+    }
+
+    span {
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: ${Sizes.phone}px) {
+      width: 100%;
+      margin-bottom: 50px;
+    }
   }
 
   .right {
     background-repeat: no-repeat;
     background-image: url(${props => props.theme.assets.kiosk});
-    background-position: center bottom;
+    background-position: left bottom;
     background-size: auto 100%;
-    width: 50%;
+    margin-left: 30px;
+    width: calc(50% - 30px);
 
-    @media (max-width: ${sizes.phone}px) {
+    @media (max-width: ${Sizes.phone}px) {
       width: 100%;
+      min-height: 200px;
+      margin-left: 0;
+      background-position: center bottom;
     }
   }
 `
