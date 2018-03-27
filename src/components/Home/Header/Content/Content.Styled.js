@@ -53,6 +53,7 @@ const ContentStyled = styled(Content)`
     background-size: auto 100%;
     margin-left: 30px;
     width: calc(50% - 30px);
+    filter: contrast(80%) drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 
     @media (max-width: ${Sizes.phone}px) {
       width: 100%;

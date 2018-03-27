@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Footer from './Footer'
+import { Sizes } from 'assets/Media'
 
 const FooterStyled = styled(Footer)`
   display: flex;
@@ -19,10 +20,17 @@ const FooterStyled = styled(Footer)`
     font-size: 18px;
     mix-blend-mode: normal;
     opacity: 0.36;
+    width: calc(100% / 3);
+
+    @media (max-width: ${Sizes.phone}px) {
+      order: 3;
+      width: 100%;
+    }
   }
 
   .center {
     align-items: center;
+    width: calc(100% / 3);
 
     ul {
       display: flex;
@@ -36,10 +44,20 @@ const FooterStyled = styled(Footer)`
     img {
       padding: 0 10px;
     }
+
+    @media (max-width: ${Sizes.phone}px) {
+      width: 100%;
+    }
   }
 
   .right {
     align-items: right;
+    width: calc(100% / 3);
+
+    @media (max-width: ${Sizes.phone}px) {
+      order: 1;
+      width: 100%;
+    }
   }
 `
 export default FooterStyled

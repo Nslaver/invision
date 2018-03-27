@@ -5,27 +5,30 @@ import logo from 'assets/img/logo.png'
 import uber from 'assets/img/uber.png'
 import netflix from 'assets/img/netflix.png'
 import twitter from 'assets/img/twitter.png'
+import { Container } from 'components/Shared'
 
 const Footer = props => {
   return (
     <div className={props.className}>
-      <ul>
-        <li>
-          <img src={evernote} alt="evernote" />
-        </li>
-        <li>
-          <img src={logo} alt="logo" />
-        </li>
-        <li>
-          <img src={uber} alt="uber" />
-        </li>
-        <li>
-          <img src={netflix} alt="netflix" />
-        </li>
-        <li>
-          <img src={twitter} alt="twitter" />
-        </li>
-      </ul>
+      <Container>
+        <ul>
+          <li>
+            <img src={evernote} alt="evernote" />
+          </li>
+          <li>
+            <img src={logo} alt="logo" />
+          </li>
+          <li>
+            <img src={uber} alt="uber" />
+          </li>
+          <li>
+            <img src={netflix} alt="netflix" />
+          </li>
+          <li>
+            <img src={twitter} alt="twitter" />
+          </li>
+        </ul>
+      </Container>
     </div>
   )
 }

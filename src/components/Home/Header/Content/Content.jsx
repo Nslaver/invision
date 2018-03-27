@@ -7,7 +7,7 @@ const Content = props => {
     <div className={props.className}>
       <div className="left">
         <h1>Become a host location</h1>
-        <span>Recive a comition</span>
+        <span>Receive a commission</span>
         <div>
           <Button inverse>Read More</Button>
           <a href="example@example.com">or contact sales</a>

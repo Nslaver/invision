@@ -5,7 +5,9 @@ import { withTheme } from 'styled-components'
 const Services = props => {
   return (
     <section className={props.className}>
-      <div className="left" />
+      <div className="left">
+        <img className="kioskSide__img" src={props.theme.assets.kioskSide} alt="Kiosk Side view" />
+      </div>
       <div className="right">
         <h2>Kiosk Services</h2>
         <img
