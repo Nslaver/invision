@@ -41,16 +41,6 @@ const MapLocations = props => {
         <Markers>
           {markers.map((marker, i) => (
             <Marker key={i} marker={marker}>
-              <circle
-                cx={0}
-                cy={0}
-                r={10}
-                style={{
-                  stroke: '#FF5722',
-                  strokeWidth: 3,
-                  opacity: 0.9
-                }}
-              />
               <image x="-16" y="-40" width="33" height="43" xlinkHref="img/marker.svg" />
             </Marker>
           ))}
