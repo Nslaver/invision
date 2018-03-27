@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Locations from './Locations'
+import { Sizes } from 'assets/Media'
 
 const LocationsStyled = styled(Locations)`
   display: flex;
@@ -17,12 +18,20 @@ const LocationsStyled = styled(Locations)`
     width: 100%;
     margin-top: 65px;
     line-height: 65px;
+
+    @media (max-width: ${Sizes.tablet}px) {
+      line-height: 30px;
+    }
   }
 
   span {
     width: 100%;
     margin: 0 auto 70px auto;
     max-width: 430px;
+
+    @media (max-width: ${Sizes.tablet}px) {
+      margin: 0 auto 35px auto;
+    }
   }
 
   .location__img {

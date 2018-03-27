@@ -23,8 +23,14 @@ const markers = [
 
 const MapLocations = props => {
   return (
-    <ComposableMap className={props.className}>
-      <ZoomableGroup disablePanning>
+    <ComposableMap
+      className={props.className}
+      projectionConfig={{
+        scale: 180,
+        yOffset: 30
+      }}
+    >
+      <ZoomableGroup>
         <Geographies geography={props.theme.assets.continentMap}>
           {(geographies, projection) =>
             geographies.map(geography => (
