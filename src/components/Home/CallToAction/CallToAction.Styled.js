@@ -8,6 +8,8 @@ const CallToActionStyled = styled(CallToAction)`
   height: 218px;
   margin: 20px 0 30px 0;
   width: 100%;
+  align-items: center;
+  text-align: center;
 
   .center {
     width: 80%;

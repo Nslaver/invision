@@ -10,6 +10,8 @@ const LocationsStyled = styled(Locations)`
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.118886);
   background: ${props => props.theme.colors.white};
   padding: 10px 50px;
+  align-items: center;
+  text-align: center;
 
   h1 {
     width: 100%;

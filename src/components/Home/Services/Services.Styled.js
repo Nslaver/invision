@@ -12,6 +12,10 @@ const ServicesStyled = styled(Services)`
   flex-wrap: wrap;
   background: ${props => props.theme.colors.white};
 
+  @media (max-width: ${Sizes.tablet}px) {
+    padding: 30px 10px 0 10px;
+  }
+
   @media (max-width: ${Sizes.phone}px) {
     flex-direction: row-reverse;
     padding: 20px;
@@ -33,6 +37,7 @@ const ServicesStyled = styled(Services)`
 
       @media (max-width: ${Sizes.phone}px) {
         display: none;
+        padding-left: 0;
       }
     }
   }
@@ -40,6 +45,15 @@ const ServicesStyled = styled(Services)`
   .right {
     width: calc(100% * 7 / 12 - 125px);
     padding: 0 125px 60px 0;
+
+    h2 {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: ${Sizes.tablet}px) {
+      width: calc(100% * 7 / 12 - 20px);
+      padding: 0 20px 30px 0;
+    }
 
     @media (max-width: ${Sizes.phone}px) {
       width: 100%;
