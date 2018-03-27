@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { withTheme } from 'styled-components'
 
 const Locations = props => {
   return (
@@ -9,13 +10,14 @@ const Locations = props => {
         Partner with Instakiosks and offer multiple financial services to your customers and
         increase revenue
       </span>
-      <div>Image</div>
+      <img src={props.theme.assets.locations} alt="Kiosks at Miami, Brasil, etc..." />
     </section>
   )
 }
 
 Locations.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  theme: PropTypes.object
 }
 
-export default Locations
+export default withTheme(Locations)

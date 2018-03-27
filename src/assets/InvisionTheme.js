@@ -7,6 +7,7 @@ import netflix from 'assets/img/netflix.png'
 import twitter from 'assets/img/twitter.png'
 import uber from 'assets/img/uber.png'
 import services from 'assets/img/services.svg'
+import locations from 'assets/img/locations.svg'
 
 const Theme = {
   colors: {
@@ -25,7 +26,8 @@ const Theme = {
     netflix: netflix,
     twitter: twitter,
     uber: uber,
-    services: services
+    services: services,
+    locations: locations
   }
 }
 
