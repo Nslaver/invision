@@ -34,10 +34,26 @@ const Theme = {
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
+  @font-face {
+    font-family: 'Cera';
+    src: url('./fonts/Cera-Regular.eot');
+    src: url('./fonts/Cera-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Cera-Regular.woff2') format('woff2'),
+        url('./fonts/Cera-Regular.woff') format('woff'),
+        url('./fonts/Cera-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     background: ${Theme.colors.gray}
+    font-family: 'Cera', sans-serif;
+  }
+
+  span {
     font-family: 'Open Sans', sans-serif;
   }
+
 `
 
 export default Theme
