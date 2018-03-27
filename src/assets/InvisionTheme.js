@@ -6,6 +6,7 @@ import evernote from 'assets/img/evernote.png'
 import netflix from 'assets/img/netflix.png'
 import twitter from 'assets/img/twitter.png'
 import uber from 'assets/img/uber.png'
+import services from 'assets/img/services.svg'
 
 const Theme = {
   colors: {
@@ -23,23 +24,17 @@ const Theme = {
     evernote: evernote,
     netflix: netflix,
     twitter: twitter,
-    uber: uber
+    uber: uber,
+    services: services
   }
 }
 
 injectGlobal`
-  @font-face {
-    font-family: 'Lato';
-    src: url('../assets/fonts/Lato-Bold.eot');
-    src: url('../assets/fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../assets/fonts/Lato-Bold.woff') format('woff'),
-      url('../assets/fonts/Lato-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
   body {
     background: ${Theme.colors.gray}
+    font-family: 'Open Sans', sans-serif;
   }
 `
 
