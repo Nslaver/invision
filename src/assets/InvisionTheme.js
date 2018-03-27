@@ -12,6 +12,7 @@ import medium from 'assets/img/medium.svg'
 import slack from 'assets/img/slack.svg'
 import twitterLogo from 'assets/img/twitter.svg'
 import hamburger from 'assets/img/hamburger.svg'
+import continentMap from 'assets/maps/world-continents.json'
 
 const Theme = {
   colors: {
@@ -21,7 +22,8 @@ const Theme = {
     secondaryText: '#000',
     gray: '#F9F9F9',
     white: 'white',
-    lightGray: '#59585D'
+    lightGray: '#59585D',
+    mapFill: '#DADADA'
   },
   assets: {
     kiosk: kiosk,
@@ -36,7 +38,8 @@ const Theme = {
     medium: medium,
     slack: slack,
     twitterLogo: twitterLogo,
-    hamburger: hamburger
+    hamburger: hamburger,
+    continentMap: continentMap
   }
 }
 
