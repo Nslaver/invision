@@ -1,15 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import ServicesImage from 'assets/img/services.svg'
+import { withTheme } from 'styled-components'
 
 const Services = props => {
   return (
     <section className={props.className}>
       <div className="left" />
       <div className="right">
+        <h2>Kiosk Services</h2>
         <img
           className="services"
-          src={ServicesImage}
+          src={props.theme.assets.services}
           alt="Gift Cards, Gaming Vouchers, Cryptocurrencies, International TOP-UPs, Phone / Calling Cards,  Recycling"
         />
       </div>
@@ -18,7 +19,8 @@ const Services = props => {
 }
 
 Services.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  theme: PropTypes.object
 }
 
-export default Services
+export default withTheme(Services)

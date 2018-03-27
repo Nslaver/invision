@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 const Button = styled.button`
-  background: ${props => props.theme.colors.secondaryBackground};
-  color: ${props => props.theme.colors.mainText};
+  background: ${props => (props.inverse ? 'white' : props.theme.colors.secondaryBackground)};
+  color: ${props => props.inverse ? props.theme.colors.secondaryBackground : props.theme.colors.mainText};
   border-radius: 25px;
   border: none;
   height: 50px;
