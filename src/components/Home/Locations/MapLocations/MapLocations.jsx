@@ -30,11 +30,11 @@ const MapLocations = props => {
         yOffset: 30
       }}
     >
-      <ZoomableGroup>
+      <ZoomableGroup disablePanning>
         <Geographies geography={props.theme.assets.continentMap}>
           {(geographies, projection) =>
-            geographies.map(geography => (
-              <Geography key={geography.id} geography={geography} projection={projection} />
+            geographies.map((geography, i) => (
+              <Geography key={i} geography={geography} projection={projection} />
             ))
           }
         </Geographies>

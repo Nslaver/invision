@@ -23,7 +23,7 @@ const Theme = {
     gray: '#F9F9F9',
     white: 'white',
     lightGray: '#59585D',
-    mapFill: '#DADADA'
+    mapFill: '#f2f2f2'
   },
   assets: {
     kiosk: kiosk,
