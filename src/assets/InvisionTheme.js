@@ -23,7 +23,9 @@ const Theme = {
     gray: '#F9F9F9',
     white: 'white',
     lightGray: '#59585D',
-    mapFill: '#f2f2f2'
+    mapFill: '#f2f2f2',
+    glyphColor: '#96BD22',
+    lineConnector: '#D9DCDF'
   },
   assets: {
     kiosk: kiosk,

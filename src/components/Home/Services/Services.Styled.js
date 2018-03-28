@@ -43,8 +43,8 @@ const ServicesStyled = styled(Services)`
   }
 
   .right {
-    width: calc(100% * 7 / 12 - 125px);
-    padding: 0 125px 60px 0;
+    width: calc(100% * 7 / 12 - 85px);
+    padding: 0 85px 60px 0;
 
     @media (max-width: ${Sizes.tablet}px) {
       width: calc(100% * 7 / 12 - 60px);

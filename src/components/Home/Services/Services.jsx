@@ -11,7 +11,7 @@ const Services = props => {
       </div>
       <div className="right">
         <h2>Kiosk Services</h2>
-        <Graph />
+        <Graph rotation={-90} size={650} graphRadius={220} />
       </div>
     </section>
   )
