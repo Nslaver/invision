@@ -39,10 +39,22 @@ const ContentStyled = styled(Content)`
       }
     }
 
+    .contact {
+      display: inline;
+
+      @media (max-width: ${Sizes.phone}px) {
+        display: block;
+      }
+    }
+
     span {
       display: inline;
       padding: 0 40px 0 30px;
       line-height: 39px;
+
+      @media (max-width: ${Sizes.phone}px) {
+        padding: 0 20px 0 0;
+      }
     }
 
     p {
@@ -64,6 +76,10 @@ const ContentStyled = styled(Content)`
     margin-left: 30px;
     width: calc(50% - 30px);
     filter: contrast(80%) drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+
+    @media (max-width: ${Sizes.tablet}px) {
+      background-size: auto 90%;
+    }
 
     @media (max-width: ${Sizes.phone}px) {
       width: 100%;
