@@ -1,0 +1,14 @@
+<svg width="45" height="44" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 6</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-712 -2287)">
+<g id="Group 6">
+<g id="Combined Shape">
+<use xlink:href="#path0_fill" transform="translate(712 2287)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 24.8542 0.17334C 23.9388 0.0588379 23.0059 0 22.059 0C 9.87616 0 0 9.7605 0 21.8008C 0 31.437 6.32611 39.6133 15.0978 42.4939L 20.8004 26.4294L 6.67188 27.6677L 24.8542 0.17334ZM 17.0979 43.0481L 38.2296 16.1416L 21.4863 18.1343L 26.9286 0.532959C 36.7684 2.72412 44.1181 11.4141 44.1181 21.8008C 44.1181 33.8411 34.2419 43.6016 22.059 43.6016C 20.3531 43.6016 18.6926 43.4104 17.0979 43.0481Z"/>
+</defs>
+</svg>

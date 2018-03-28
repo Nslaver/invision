@@ -1,0 +1,18 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-713 -2521)">
+<g id="Group 3">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(713.01 2521.01)" fill="#96BD22"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(713.01 2541)" fill="#96BD22"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 35.4594 7.18444C 31.7789 2.79778 26.265 0 20.0767 0C 8.97944 0 0 8.94833 0 19.9911L 7.99722 19.9911C 7.99722 13.3461 13.4222 7.94056 20.1006 7.94056C 24.0956 7.94056 27.6378 9.88556 29.8439 12.8667L 25.1417 17.36L 39.9806 17.3533L 39.9806 2.58389L 35.4594 7.18444Z"/>
+<path id="path1_fill" d="M 19.8783 12.0494C 15.8822 12.0494 12.3422 10.105 10.1344 7.12333L 14.8367 2.63111L 0 2.63778L 0 17.4067L 4.51889 12.8061C 8.19944 17.1928 13.7139 19.9922 19.9022 19.9922C 31.0011 19.9922 39.9806 11.0422 39.9806 0L 31.9811 0C 31.9811 6.64333 26.5561 12.0494 19.8783 12.0494Z"/>
+</defs>
+</svg>
