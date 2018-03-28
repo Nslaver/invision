@@ -3,15 +3,19 @@ import PropTypes from 'prop-types'
 import { withTheme } from 'styled-components'
 import giftCards from 'assets/img/nouns/gift_cards.svg'
 import center from 'assets/img/nouns/center.svg'
-import crypto from 'assets/img/nouns/gift_cards.svg'
+import crypto from 'assets/img/nouns/crypto.svg'
+import phoneCards from 'assets/img/nouns/phone_cards.svg'
+import recycle from 'assets/img/nouns/recycle.svg'
+import topups from 'assets/img/nouns/topups.svg'
+import gaming from 'assets/img/nouns/gaming.svg'
 
 const services = [
   { text: 'Gift Cards', glyph: giftCards },
   { text: 'Cryptocurrencies', glyph: crypto },
-  { text: 'Phone / Calling Cards', glyph: giftCards },
-  { text: 'Recycling', glyph: giftCards },
-  { text: 'International TOP-UPs', glyph: giftCards },
-  { text: 'Gaming Vouchers', glyph: giftCards }
+  { text: 'Phone / Calling Cards', glyph: phoneCards },
+  { text: 'Recycling', glyph: recycle },
+  { text: 'International TOP-UPs', glyph: topups },
+  { text: 'Gaming Vouchers', glyph: gaming }
 ]
 
 const Graph = props => {
@@ -21,7 +25,7 @@ const Graph = props => {
         <image x="200" y="200" xlinkHref={center} />
         {services.map((services, index, array) => {
           const r = 150
-          const a = index * (360 / array.length) * Math.PI / 180
+          const a = (90 + index * (360 / array.length)) * Math.PI / 180
           const x = 200 + r * Math.cos(a)
           const y = 200 + r * Math.sin(a)
           return (
