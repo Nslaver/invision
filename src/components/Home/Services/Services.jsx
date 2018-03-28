@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withTheme } from 'styled-components'
+import Graph from './Graph'
 
 const Services = props => {
   return (
@@ -10,11 +11,7 @@ const Services = props => {
       </div>
       <div className="right">
         <h2>Kiosk Services</h2>
-        <img
-          className="services__img"
-          src={props.theme.assets.services}
-          alt="Gift Cards, Gaming Vouchers, Cryptocurrencies, International TOP-UPs, Phone / Calling Cards,  Recycling"
-        />
+        <Graph />
       </div>
     </section>
   )
